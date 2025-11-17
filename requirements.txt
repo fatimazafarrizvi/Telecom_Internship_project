@@ -1,4 +1,15 @@
-streamlit
-pandas 
-numpy 
-plotly.express 
+# Telecom Network KPI Monitoring System - Dependencies
+
+# Web Framework
+streamlit==1.28.1
+
+# Data Processing
+pandas==2.1.3
+numpy==1.26.2
+
+# Visualization
+plotly==5.18.0
+
+# Utilities
+python-dateutil==2.8.2
+pytz==2023.3
