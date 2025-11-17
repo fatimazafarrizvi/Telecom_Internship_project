@@ -47,34 +47,6 @@ Telecom_Internship_project1/
 - Python 3.8 or higher
 - pip (Python package manager)
 
-### Installation
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/yourusername/Telecom_Internship_project1.git
-   cd Telecom_Internship_project1
-   ```
-
-2. **Create a virtual environment (optional but recommended)**
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
-   ```
-
-3. **Install dependencies**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-### Running the Application
-
-```bash
-streamlit run Home.py
-```
-
-The dashboard will open at `http://localhost:8501` in your default browser.
-
----
 
 ## 📖 Page Guide
 
@@ -226,26 +198,6 @@ This project incorporates real telecom concepts from the **Bharti Airtel Mobilit
 3. **Data Analysis Training**: Learn how telecom KPIs are tracked
 4. **Internship Portfolio**: Demonstrate real-world telecom knowledge
 5. **Stakeholder Reporting**: Visualize network performance trends
-
----
-
-## 🔮 Future Enhancements
-
-- [ ] Connect to real telecom OSS/BSS databases
-- [ ] Add alarm thresholds and alerts
-- [ ] Implement root cause analysis (RCA) features
-- [ ] Add predictive analytics using ML models
-- [ ] Include cell-level granularity (currently cluster-level)
-- [ ] Add download reports feature (CSV/PDF)
-- [ ] Integrate real-time data streaming
-- [ ] Add network topology map visualization
-- [ ] Implement user authentication for role-based access
-
----
-
-## 📝 License
-
-This project is open source and available under the **MIT License**. See LICENSE file for details.
 
 ---
 
