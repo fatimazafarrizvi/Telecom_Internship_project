@@ -23,7 +23,7 @@ df["RLF_Status"] = df["RLF_Change(%)"].apply(lambda x: status(x, invert=True))
 #st.dataframe(df)
 
 st.subheader("📈 Compare KPI (Cluster-wise)")
-st.dataframe(df.style.applymap(lambda x: "background-color: green" if x=="Improved" else "background-color: red" if x=="Degraded" else ""))
+st.dataframe(df.style.map(lambda x: "background-color: green" if x=="Improved" else "background-color: red" if x=="Degraded" else ""))
 
 kpi_choice = st.selectbox("Select KPI", ["DL_Throughput", "UL_Throughput", "Handover_Success", "Paging_Success", "RLF"])
 

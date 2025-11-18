@@ -25,7 +25,7 @@ This dashboard replicates how tools like **GLIMS, Mycom & Actix** visualize tele
 """)
 
 # OPTIONAL IMAGE (UPLOAD LATER)
-st.image("images/network_architecture_example.png", caption="4G / 5G RAN Architecture (Illustration)", use_container_width=True)
+st.image("images/network_architecture_example.png", caption="4G / 5G RAN Architecture (Illustration)", use_column_width=True)
 
 # =============================
 # RAN OPERATIONS
@@ -56,7 +56,7 @@ This includes:
 """)
 
 # IMAGE PLACEHOLDER
-st.image("images/ran_sector_diagram.png", caption="Typical 3-Sector Telecom Site", use_container_width=True)
+st.image("images/ran_sector_diagram.png", caption="Typical 3-Sector Telecom Site", use_column_width=True)
 
 st.markdown("---")
 
@@ -142,7 +142,7 @@ st.markdown("""
 """)
 
 # IMAGE PLACEHOLDER
-st.image("images/tilt_example.png", caption="Antenna Tilt & Azimuth Optimization", use_container_width=True)
+st.image("images/tilt_example.png", caption="Antenna Tilt & Azimuth Optimization", use_column_width=True)
 
 st.markdown("---")
 
