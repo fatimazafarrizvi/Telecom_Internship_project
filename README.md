@@ -1,6 +1,7 @@
 # 📡 Telecom Network KPI Monitoring System
 
 A professional **Streamlit-based dashboard** that simulates a **Bharti Airtel-style telecom monitoring system**, inspired by real internship experience in the Mobility Network Department.
+Live Project Link: https://telecom-network-kpi-monitoring-system.streamlit.app/
 
 ## 🎯 Overview
 
